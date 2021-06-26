@@ -5,7 +5,9 @@ public class Main {
 
     public static int computerPicks(){
         return (int)(Math.random()*100);
+
     }
+
 
 
 
