@@ -17,7 +17,10 @@ public class Main {
 
             } else if (x<y){
                 System.out.println("Your value is too low");
-            }else{
+            }else if(y==2){
+                System.out.println("cool");
+            }
+            else{
                 System.out.println("Correct");
                 break;
             }
