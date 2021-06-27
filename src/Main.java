@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(y);
         pick();
     }
 
-    static int y=(int) (Math.random()*100);
+
     public  static void pick(){
+        int y=(int) (Math.random()*100);
+        System.out.println(y);
         Scanner scanner=new Scanner(System.in);
         while (true) {
             System.out.println("Enter");
@@ -17,8 +18,6 @@ public class Main {
 
             } else if (x<y){
                 System.out.println("Your value is too low");
-            }else if(y==2){
-                System.out.println("cool");
             }
             else{
                 System.out.println("Correct");
